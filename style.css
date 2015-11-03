@@ -1,0 +1,27 @@
+.box{
+  font-size: 0;
+  width: 450px;
+}
+.block{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+
+}
+.block img{
+  max-width: 100%;
+  transform: rotateX(0deg)
+
+}
+.block._act img{
+  transform: rotateX(360deg);
+  -webkit-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
